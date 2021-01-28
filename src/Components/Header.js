@@ -14,7 +14,9 @@ export default function Header() {
     return (
         <AppBar position="static">
             <Toolbar>
-                <Typography className={classes.typographyStyles}>Header content here?</Typography>
+                <Typography className={classes.typographyStyles}>
+                    Header content here?
+                </Typography>
                 <ACUnitRoundedIcon/>
             </Toolbar>
         </AppBar>
