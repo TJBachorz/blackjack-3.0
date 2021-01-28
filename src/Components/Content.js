@@ -30,7 +30,7 @@ export default function Content() {
                     +
                 </Button>
 
-                <h1>{count}</h1>
+                <h1 className="count">{count}</h1>
 
                 <Button 
                     color="primary" 
